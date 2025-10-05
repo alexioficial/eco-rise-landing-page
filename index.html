@@ -4,58 +4,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>EcoRise - NASA Space Apps Challenge 2025</title>
+	<title>EcoRise - Simulador de Agricultura Sostenible | NASA Space Apps 2025</title>
 	<link rel="stylesheet" href="./estilos.css">
+	<link rel="icon" href="./bobby.png">
 </head>
 
 <body>
 	<section class="hero-section">
 		<div class="container">
 			<div class="header-logos">
-				<div class="logo-placeholder">Logo 1</div>
+				<img src="./logo.png" alt="EcoRise Logo" class="header-logo">
 				<div class="header-text">
-					<h2>NASA Space Apps Challenge 2025</h2>
-					<p>Innovación Agrícola con Datos Satelitales</p>
+					<h2>EcoRise</h2>
+					<p>Farm Navigators - NASA Space Apps Challenge 2025</p>
 				</div>
-				<div class="logo-placeholder">Logo 2</div>
+				<img src="./logo-equipo.jpg" style="border-radius: 100%;" alt="Farm Navigators Team" class="header-logo">
 			</div>
 
 			<div class="hero-content">
 				<div class="badge">
 					<svg class="icon" viewBox="0 0 24 24">
-						<path
-							d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
-						</path>
-						<path
-							d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
-						</path>
-						<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
-						<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+						<path d="M7 20h10"></path>
+						<path d="M10 20c5.5-2.5.8-6.4 3-10"></path>
+						<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"></path>
+						<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path>
 					</svg>
-					2025 NASA Space Apps Challenge
+					EcoRise - Agricultura Sostenible
 				</div>
-				<h1>Farm the Future with NASA Data</h1>
-				<p>Create an engaging educational game that uses NASA's satellite imagery and climate data to simulate
-					sustainable farming practices</p>
+				<h1>Aprende Agricultura Sostenible con Bobby</h1>
+				<p>Un simulador interactivo que utiliza datos de NASA para enseñar prácticas agrícolas sostenibles. Conoce a Bobby, tu lechuguita amiga que te guiará en cada decisión de cultivo.</p>
 				<div class="button-group">
-					<button class="btn btn-primary">Get Started</button>
-					<button class="btn btn-outline">View Resources</button>
+					<button class="btn btn-primary" onclick="window.location.href='#about'">Conocer EcoRise</button>
+					<button class="btn btn-outline" onclick="window.location.href='#features'">Ver Funcionalidades</button>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="about">
 		<div class="container">
 			<div class="grid-2">
 				<div>
-					<span class="badge-secondary">Intermediate - Advanced</span>
-					<h2>The Challenge</h2>
-					<p class="text-lg">The agriculture community faces the challenge of integrating technology and data
-						to enhance sustainable farming practices. Your mission is to create an engaging educational game
-						that effectively utilizes NASA's open data sets to simulate farming scenarios.</p>
-					<p class="text-lg">Enable players to learn how satellite imagery and climate data can inform
-						innovative, sustainable agricultural methods through interactive gameplay.</p>
+					<span class="badge-secondary">Educación Interactiva</span>
+					<h2>¿Qué es EcoRise?</h2>
+					<p class="text-lg">EcoRise es un simulador educativo de agricultura sostenible que utiliza datos reales de NASA para ayudar a agricultores y estudiantes a tomar mejores decisiones de cultivo.</p>
+					<p class="text-lg">Conoce las condiciones de tu terreno, el clima local, y obtén recomendaciones personalizadas de Bobby, tu guía en agricultura sostenible, para maximizar tu efectividad de cultivo de forma responsable con el medio ambiente.</p>
 				</div>
 				<div class="card-grid">
 					<div class="card">
@@ -70,38 +63,37 @@
 								d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z">
 							</path>
 						</svg>
-						<h3>Agriculture</h3>
-						<p>Sustainable farming practices</p>
+						<h3>Bobby, tu Guía</h3>
+						<p>Consejos personalizados de agricultura sostenible</p>
 					</div>
 					<div class="card">
 						<svg class="card-icon color-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-							stroke-width="2">
-							<ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-							<path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-						</svg>
-						<h3>Data Analysis</h3>
-						<p>NASA open datasets</p>
-					</div>
-					<div class="card">
-						<svg class="card-icon color-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2">
 							<circle cx="12" cy="12" r="10"></circle>
 							<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
 							<path d="M2 12h20"></path>
 						</svg>
-						<h3>Earth Science</h3>
-						<p>Climate & soil data</p>
+						<h3>Datos NASA</h3>
+						<p>Clima, suelo y condiciones reales</p>
+					</div>
+					<div class="card">
+						<svg class="card-icon color-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="2">
+							<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+							<polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+							<line x1="12" y1="22.08" x2="12" y2="12"></line>
+						</svg>
+						<h3>Simulación</h3>
+						<p>Cultivos de tomate, maíz y lechuga</p>
 					</div>
 					<div class="card">
 						<svg class="card-icon color-chart-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"
 							stroke-width="2">
-							<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-							<circle cx="9" cy="7" r="4"></circle>
-							<path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-							<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+							<path d="M3 3v18h18"></path>
+							<path d="m19 9-5 5-4-4-3 3"></path>
 						</svg>
-						<h3>Education</h3>
-						<p>Interactive learning</p>
+						<h3>Efectividad</h3>
+						<p>Predicción de éxito del cultivo</p>
 					</div>
 				</div>
 			</div>
@@ -110,47 +102,32 @@
 
 	<section class="section section-muted">
 		<div class="container">
-			<h2 class="text-center">Background</h2>
+			<h2 class="text-center">Nuestra Misión</h2>
 			<div class="prose">
-				<p class="text-lg">Agriculture is at the core of the global food supply, yet the agricultural community
-					faces unprecedented challenges as the world population continues to grow and changing weather
-					patterns impact land productivity. Incorporating conservation methods into farming practices has
-					become essential for preserving resources, maintaining biodiversity, and ensuring the long-term
-					viability of agricultural lands.</p>
-				<p class="text-lg">The integration of technology and data analytics into farming can revolutionize this
-					sector by optimizing crop yields, reducing required resources, and minimizing environmental impact.
-					Currently, advanced technologies like satellite imagery and climate modeling can be used to enhance
-					decision-making for farm operation and management.</p>
-				<p class="text-lg">NASA's open data sets—which offer a wealth of real-time information on climate
-					conditions, soil moisture, and vegetation health—can be used to bridge knowledge gaps. A creative,
-					engaging, educational game could provide an innovative way to showcase the potential of NASA's
-					datasets to the agricultural community.</p>
+				<p class="text-lg">La agricultura enfrenta desafíos sin precedentes: el cambio climático, el crecimiento poblacional y la necesidad de prácticas más sostenibles. Los agricultores necesitan herramientas accesibles que les permitan tomar decisiones informadas basadas en datos científicos reales.</p>
+				<p class="text-lg">EcoRise nace como respuesta a este desafío, combinando los datos abiertos de NASA con tecnología interactiva para hacer la información científica accesible y práctica. A través de nuestro simulador, agricultores y estudiantes pueden experimentar con diferentes escenarios de cultivo sin riesgo, aprendiendo las mejores prácticas de agricultura sostenible.</p>
+				<p class="text-lg">Con Bobby como guía amigable, transformamos datos complejos de temperatura, suelo, clima y probabilidad de lluvia en recomendaciones claras y accionables. Cada decisión en EcoRise te ayuda a entender el impacto real que tienen las prácticas sostenibles en la efectividad de tus cultivos.</p>
 			</div>
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="features">
 		<div class="container">
 			<div class="text-center" style="margin-bottom: 3rem;">
-				<h2>Your Mission</h2>
-				<p class="text-lg" style="max-width: 48rem; margin: 0 auto;">Develop an engaging, educational game that
-					bridges the gap between complex scientific data and practical farming applications</p>
+				<h2>¿Cómo Funciona EcoRise?</h2>
+				<p class="text-lg" style="max-width: 48rem; margin: 0 auto;">Un proceso simple que te guía paso a paso hacia decisiones agrícolas más sostenibles e informadas</p>
 			</div>
 
 			<div class="grid-3">
 				<div class="card-large">
 					<div class="icon-box icon-box-primary">
 						<svg class="icon color-primary" viewBox="0 0 24 24">
-							<path
-								d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5">
-							</path>
-							<path d="M9 18h6"></path>
-							<path d="M10 22h4"></path>
+							<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+							<circle cx="12" cy="10" r="3"></circle>
 						</svg>
 					</div>
-					<h3>User-Friendly Interface</h3>
-					<p class="text-lg">Create an intuitive game interface that allows players to engage with real-world
-						data from NASA's satellite imagery and climate reports</p>
+					<h3>1. Selecciona tu Ubicación</h3>
+					<p class="text-lg">Usa tu ubicación actual o selecciona cualquier punto en el mapa. EcoRise obtendrá datos climáticos y de suelo específicos de NASA para esa zona.</p>
 				</div>
 
 				<div class="card-large">
@@ -166,22 +143,19 @@
 							</path>
 						</svg>
 					</div>
-					<h3>Realistic Simulation</h3>
-					<p class="text-lg">Simulate key agricultural activities such as fertilization, irrigation, and
-						livestock management based on actual environmental data</p>
+					<h3>2. Configura tu Cultivo</h3>
+					<p class="text-lg">Define las dimensiones de tu terreno y elige el tipo de planta que deseas cultivar: tomate, maíz o lechuga. Cada cultivo tiene sus propias necesidades.</p>
 				</div>
 
 				<div class="card-large">
 					<div class="icon-box icon-box-accent">
 						<svg class="icon color-accent" viewBox="0 0 24 24">
-							<circle cx="12" cy="12" r="10"></circle>
-							<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-							<path d="M2 12h20"></path>
+							<path d="M3 3v18h18"></path>
+							<path d="m19 9-5 5-4-4-3 3"></path>
 						</svg>
 					</div>
-					<h3>Educational Impact</h3>
-					<p class="text-lg">Enrich the learning experience with multimedia elements like interactive maps or
-						augmented reality features</p>
+					<h3>3. Obtén Predicciones</h3>
+					<p class="text-lg">Visualiza la efectividad esperada de tu cultivo basada en temperatura del suelo, tipo de suelo, demanda del producto y probabilidad de lluvia. Bobby te dará consejos personalizados.</p>
 				</div>
 			</div>
 		</div>
@@ -189,83 +163,73 @@
 
 	<section class="section section-primary">
 		<div class="container">
-			<h2 class="text-center">Key Considerations</h2>
+			<h2 class="text-center">Consejos de Bobby para Agricultura Sostenible</h2>
 
 			<div class="grid-4 considerations">
 				<div>
-					<h3 class="color-primary">Game Design Tips</h3>
+					<h3 class="color-primary">💧 Uso Inteligente del Agua</h3>
 					<ul>
 						<li>
 							<span class="color-primary">•</span>
-							<span class="text-lg">Include a clear and intuitive interface for accessibility across all
-								ages and backgrounds</span>
+							<span class="text-lg">El agua es vida. Usa el riego de manera inteligente, aprovechando la lluvia y evitando el desperdicio</span>
 						</li>
 						<li>
 							<span class="color-primary">•</span>
-							<span class="text-lg">Develop compelling narratives or goals to maintain player
-								interest</span>
-						</li>
-						<li>
-							<span class="color-primary">•</span>
-							<span class="text-lg">Include information or hints that prevent data
-								misinterpretation</span>
+							<span class="text-lg">Monitorea la probabilidad de lluvia para optimizar tu sistema de riego</span>
 						</li>
 					</ul>
 				</div>
 
 				<div>
-					<h3 class="color-secondary">Data Utilization</h3>
+					<h3 class="color-secondary">🌍 Cuidado del Suelo</h3>
 					<ul>
 						<li>
 							<span class="color-secondary">•</span>
-							<span class="text-lg">Ensure accurate representation of NASA's datasets for realistic
-								scenarios</span>
+							<span class="text-lg">Cuida el suelo: rota tus cultivos para que no se desgaste y mantén su fertilidad de forma natural</span>
 						</li>
 						<li>
 							<span class="color-secondary">•</span>
-							<span class="text-lg">Use graphical elements like interactive maps or charts to simplify
-								complex data</span>
+							<span class="text-lg">Conoce los 4 tipos de suelo: arenoso, arcilloso, limoso y franco, cada uno con características únicas</span>
 						</li>
 						<li>
 							<span class="color-secondary">•</span>
-							<span class="text-lg">Understand data strengths and limitations to reflect real-world
-								constraints</span>
+							<span class="text-lg">El suelo franco es ideal para la agricultura por su equilibrio perfecto</span>
 						</li>
 					</ul>
 				</div>
 
 				<div>
-					<h3 class="color-accent">Educational Impact</h3>
+					<h3 class="color-accent">🌞 Aprovecha el Clima</h3>
 					<ul>
 						<li>
 							<span class="color-accent">•</span>
-							<span class="text-lg">Include tutorials explaining scientific terms and equations</span>
+							<span class="text-lg">La energía del sol y el clima influyen en tu cosecha. Aprende a usarlos a tu favor</span>
 						</li>
 						<li>
 							<span class="color-accent">•</span>
-							<span class="text-lg">Design scenarios reflecting actual agricultural challenges</span>
+							<span class="text-lg">La temperatura del suelo determina qué cultivos prosperarán mejor</span>
 						</li>
 						<li>
 							<span class="color-accent">•</span>
-							<span class="text-lg">Help farmers understand how data can inform better decisions</span>
+							<span class="text-lg">Usa datos satelitales para predecir las mejores épocas de siembra</span>
 						</li>
 					</ul>
 				</div>
 
 				<div>
-					<h3 class="color-chart-4">Pitfalls to Avoid</h3>
+					<h3 class="color-chart-4">🌱 Sostenibilidad</h3>
 					<ul>
 						<li>
 							<span class="color-chart-4">•</span>
-							<span class="text-lg">Don't overwhelm players with too much technical detail</span>
+							<span class="text-lg">Recuerda: sembrar de forma sostenible no solo alimenta hoy, también asegura comida para el mañana</span>
 						</li>
 						<li>
 							<span class="color-chart-4">•</span>
-							<span class="text-lg">Focus on relevant and impactful data for educational goals</span>
+							<span class="text-lg">Cada acción cuenta para un futuro más verde y saludable</span>
 						</li>
 						<li>
 							<span class="color-chart-4">•</span>
-							<span class="text-lg">Avoid generic simulations that don't link to broader systems</span>
+							<span class="text-lg">Los árboles y áreas verdes ayudan a conservar el agua y proteger tu finca</span>
 						</li>
 					</ul>
 				</div>
@@ -273,15 +237,13 @@
 		</div>
 	</section>
 
-	CTA Section
 	<section class="section">
 		<div class="container text-center">
-			<h2>Ready to Farm the Future?</h2>
-			<p class="text-lg" style="max-width: 56rem; margin: 0 auto 2rem;">Empower players with the knowledge and
-				technological insight necessary to influence real-world farming practices positively and responsibly</p>
+			<h2>¿Listo para Cultivar el Futuro?</h2>
+			<p class="text-lg" style="max-width: 56rem; margin: 0 auto 2rem;">Únete a EcoRise y descubre cómo la tecnología y los datos de NASA pueden transformar tus prácticas agrícolas hacia un futuro más sostenible y productivo</p>
 			<div class="button-group">
-				<button class="btn btn-primary">Join the Challenge</button>
-				<button class="btn btn-outline">Explore Resources</button>
+				<button class="btn btn-primary" onclick="alert('¡Visita la aplicación EcoRise para comenzar tu experiencia!')">Comenzar Ahora</button>
+				<button class="btn btn-outline" onclick="window.location.href='#about'">Conocer Más</button>
 			</div>
 		</div>
 	</section>
@@ -292,50 +254,43 @@
 				<div>
 					<div class="footer-brand">
 						<svg class="icon color-primary" viewBox="0 0 24 24">
-							<path
-								d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
-							</path>
-							<path
-								d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
-							</path>
-							<path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
-							<path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+							<path d="M7 20h10"></path>
+							<path d="M10 20c5.5-2.5.8-6.4 3-10"></path>
+							<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"></path>
+							<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"></path>
 						</svg>
-						<span>NASA Space Apps</span>
+						<span>EcoRise</span>
 					</div>
-					<p style="font-size: 0.875rem; color: var(--muted-foreground);">Building the future of sustainable
-						agriculture through innovation and technology</p>
+					<p style="font-size: 0.875rem; color: var(--muted-foreground);">Construyendo el futuro de la agricultura sostenible a través de la innovación y la tecnología</p>
 				</div>
 				<div>
-					<h4>Challenge</h4>
+					<h4>Proyecto</h4>
 					<ul>
-						<li>Overview</li>
-						<li>Objectives</li>
-						<li>Resources</li>
-						<li>Submit</li>
+						<li onclick="window.location.href='#about'">¿Qué es EcoRise?</li>
+						<li onclick="window.location.href='#features'">Cómo Funciona</li>
+						<li onclick="window.location.href='#about'">Nuestra Misión</li>
 					</ul>
 				</div>
 				<div>
-					<h4>Resources</h4>
+					<h4>Recursos</h4>
 					<ul>
-						<li>NASA Data</li>
-						<li>Documentation</li>
-						<li>Tutorials</li>
-						<li>Support</li>
+						<li>Datos NASA</li>
+						<li>Tipos de Suelo</li>
+						<li>Consejos de Bobby</li>
+						<li>Documentación</li>
 					</ul>
 				</div>
 				<div>
-					<h4>Connect</h4>
+					<h4>Equipo</h4>
 					<ul>
-						<li>Community</li>
-						<li>Discord</li>
-						<li>Twitter</li>
-						<li>GitHub</li>
+						<li>Farm Navigators</li>
+						<li>NASA Space Apps 2025</li>
+						<li>Contacto</li>
 					</ul>
 				</div>
 			</div>
 			<div class="footer-bottom">
-				<p>© 2025 NASA Space Apps Challenge. All rights reserved.</p>
+				<p>© 2025 EcoRise - NASA Space Apps Challenge. Todos los derechos reservados.</p>
 			</div>
 		</div>
 	</footer>

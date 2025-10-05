@@ -64,6 +64,13 @@ body {
     font-size: 0.875rem;
 }
 
+.header-logo {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 .header-text {
     flex: 1;
     text-align: center;
